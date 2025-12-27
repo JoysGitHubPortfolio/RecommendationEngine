@@ -10,3 +10,4 @@
 - For production, the trained model is exposed via a lightweight Flask API to support real-time inference, with clear separation between offline training and online serving, and can be deployed either via containerisation or serverless infrastructure for scalability.
 
 ![Systems Design](muzz_architecture_simple.png)
+![Systems Design](muzz_architecture_detailed.png)
