@@ -10,4 +10,4 @@
 - For production, the trained model is exposed via a lightweight Flask API to support real-time inference, with clear separation between offline training and online serving, and can be deployed either via containerisation or serverless infrastructure for scalability. As users add in real-time, it may be unsustainable to do continual model re-training. Hence, some kind of batch processing may be more suitable. I would also set up alerts for issues such as data-drift.
 
 ![Systems Design](architecture_simple.png)
-![Systems Design](architecture_detailed.png)
+![Detailed Design](architecture_detailed.png)
